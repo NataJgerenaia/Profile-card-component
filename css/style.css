@@ -1,0 +1,147 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 162, 235);
+}
+.for-cont {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.top-circle {
+    width: 978px;
+    height: 976px;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    mix-blend-mode: normal;
+    transform: rotate(-135deg);
+    border-radius: 500px;
+    margin-top: -45%;
+    margin-left:-20% ;
+    position: relative;
+}
+.bottom-circle {
+    width: 978px;
+    height: 976px;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+    border-radius:500px;
+    margin-right: -10%;
+    position: relative; 
+}
+.circle-cont {
+    display: flex;
+    justify-content: end;
+    margin-left: -30%;
+}
+.profile-card {
+    position: absolute;
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+    top:0;
+}
+.img-bg {
+    position: relative;
+}
+.img-container {
+    display: flex;
+    justify-content: center; 
+}
+.profile-img {
+    width: 96px;
+    height: 96px;
+    border: 5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    top:25%;
+}
+.clear { 
+    clear: both;
+}
+.profile-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+.boy-name {
+    color: #2e3349;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.number{
+    color: #6b7082;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Cinzel', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 8.5px;
+}
+.london {
+    color: #6b7082;
+    margin-top: 13px;
+    text-align: center;
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #e8e9ec;
+}
+h2 {
+    font-family: 'Cinzel', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.abt-profile {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 53px;
+}
+.k-number {
+    color: #2e3349;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.below-text {
+    font-weight: 400;
+    text-align: center;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    margin-top: 9px;
+}
