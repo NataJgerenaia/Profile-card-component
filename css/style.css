@@ -30,6 +30,9 @@
 .img-bg {
     position: relative;
 }
+.doted-bg {
+    border-radius: 15px 0 15px 0;
+}
 .img-container {
     display: flex;
     justify-content: center; 
