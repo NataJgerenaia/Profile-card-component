@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     background-color: rgb(54, 162, 235);
+    background-position: right 50vw bottom 25vh, left 45vw top 44vh;
 }
 .for-cont {
     width: 100%;
@@ -135,7 +136,7 @@ h2 {
 .abt-profile {
     display: flex;
     justify-content: space-around;
-    margin-top: 53px;
+    margin-top: 24px;
 }
 .k-number {
     color: #2e3349;
@@ -150,4 +151,16 @@ h2 {
     letter-spacing: 1.5px;
     font-size: 10px;
     margin-top: 9px;
+}
+
+
+
+
+
+
+@media screen and (min-width:1700px) {
+    .top-circle{
+        margin-left: -20%;
+    }
+    body {background-color: red;}
 }
