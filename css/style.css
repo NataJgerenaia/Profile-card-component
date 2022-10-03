@@ -13,33 +13,11 @@
     align-items: center;
 }
 .top-circle {
-    width: 978px;
-    height: 976px;
-    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-    mix-blend-mode: normal;
-    transform: rotate(-135deg);
-    border-radius: 500px;
-    margin-top: -60%;
-    margin-left:-20% ;
-    position: relative;
+    top: 0;
+    left: 0;
 }
-.bottom-circle {
-    width: 978px;
-    height: 976px;
-    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-    mix-blend-mode: normal;
-    opacity: 0.25;
-    transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
-    border-radius:500px;
-    margin-right: -30%;
-    margin-top: 60%;
-    position: relative; 
-}
-.circle-cont {
-    display: flex;
-    justify-content: end;
-    margin-left: -30%;
-}
+
+
 .profile-card {
     position: absolute;
     width: 350px;
